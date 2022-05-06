@@ -1,4 +1,4 @@
-/*Mike Noecker, period 7, 5-11-21, This is my own code MDN, This program will play a game of Yahtzee*/
+/*Mike Noecker, period 7, 5-11-21, This is my own code MN, Play a game of Yahtzee in the console*/
 public class Yahtzee
 {
 	private Die[] dice;
@@ -78,33 +78,3 @@ public class Yahtzee
 
 
 }
-
-
-
-/*die class
-import java.util.Random;
-public class Die
-{
-	//public vars
-	private int roll = 0;
-
-	//constructor used to create dice
-	public void die()
-	{
-		this.roll();
-	}
-
-	//method to roll dice
-	public int roll()
-	{
-		Random rand = new Random();
-		roll = rand.nextInt(6) + 1;
-		return roll;
-	}
-
-	//method used to get the value of die
-	public int getValue()
-	{
-		return roll;
-	}
-	*/
